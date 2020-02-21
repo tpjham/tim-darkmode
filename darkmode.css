@@ -1,0 +1,218 @@
+/* Väritystä bokseille ja alaosalle */
+body, .container-fluid, .footer, .hidden-print, .note, .breadcrumb {
+    color: rgb(232, 230, 227);
+    background-color: rgb(24, 26, 27);
+}
+
+a {
+     color: #58f;
+}
+
+a:visited {
+    color: #5242CE !important;
+}
+
+html {
+    color: rgb(232, 230, 227);
+    background-color: rgb(24, 26, 27);
+}
+
+/* Alla muutoksia jotta Vesan "Keskustelua TIM-kommenteista olisi mukavempi */
+.paragraphs .blue {
+    color: #6f6e6e
+}
+
+.paragraphs .note .answer {
+    color: #6f6e6e
+}
+
+.paragraphs {
+     border: 1px solid #ddd;
+     padding-left: 5%;
+     padding-right: 5%;
+}
+
+.notes {
+    color: rgb(232, 230, 227);
+    background-color: rgb(24, 26, 27) !important;
+}
+
+.kysymys p {
+    background: rgb(40, 40, 40) !important;
+}
+
+.paragraphs .bgyellow {
+    color: red;
+}
+/* */
+
+/* TIMin materiaalien vierivän menupalkin värin muutos */
+div.tim-menu, top-menu, top-menu-mobile {
+    color: rgb(232, 230, 227);
+    background-color: rgb(30, 30, 30) !important;
+    border-color: rgb(30, 30, 30);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+span ul.tim-menu-dropdown, ul li.tim-menu-list-item {
+    color: rgb(232, 230, 227);
+    background-color: rgb(24, 26, 27);
+    border-color: gray;
+}
+
+.tim-menu-list-item:hover, .tim-menu-item a:hover {
+    background: rgb(70,70,70) !important;
+}
+
+/* Ylämenun muutos */
+.nav, .nav .nav-tabs .active, .tab-content {
+    color: rgb(232, 230, 227);
+    background-color: rgb(24, 26, 27);
+    border-bottom: 1px solid #ddd !important;
+}
+
+/* Käyttäjävalikon väri */
+.dropdown-menu, li a{
+    color: #58f !important;
+    background-color: rgb(24, 26, 27);
+    border-color: gray;
+}
+
+/* Käyttäjävalikon värin muutos hoverilla */
+.dropdown-menu li a:hover {
+    color: rgb(232, 230, 227) !important;
+    background-color: rgb(70, 70, 70) !important;
+    border-color: pink;
+}
+
+/* Random materiaalin värien muutosta */
+.panel, .panel-default .panel-heading {
+    color: rgb(232, 230, 227);
+    background-color: rgb(24, 26, 27);
+}
+
+.smallVideoRunDiv {
+    color: rgb(232, 230, 227);
+    background-color: gray;
+}
+
+.material, .form-control {
+    color: rgb(232, 230, 227);
+    background-color: rgb(24, 26, 27);
+    border-color: rgb(30, 30, 30);
+
+}
+
+.paragraphs .csRunDiv .csRunArea {
+    color: rgb(232, 230, 227);
+    background-color: rgb(24, 26, 27);
+    border-color: rgb(30, 30, 30);
+}
+
+.form-control, .form-control[readonly] {
+    color: rgb(232, 230, 227);
+    background-color: rgb(24, 26, 27);
+}
+
+.paragraphs pre {
+    color: rgb(232, 230, 227);
+    background-color: rgb(24, 26, 27);
+}
+/* */
+
+/* Nappien muutos */
+.btn, .btn-default, .btn-group {
+    color: rgb(232, 230, 227);
+    background-color: rgb(24, 26, 27);
+    border-color: gray;
+}
+
+/* Menupalkkien muutos */
+.nav-tabs li.active a, .nav-tabs li.active a:focus, .nav-tabs li.active a:hover {
+    color: rgb(232, 230, 227);
+    background-color: rgb(24, 26, 27);
+    border-bottom: 1px solid #ddd !important;
+    border-color: blue
+}
+
+#menuTabs {
+     border-right: 1px solid #ddd;
+}
+
+.nav-tabs li a {
+    color: rgb(232, 230, 227);
+    background-color: rgb(24, 26, 27);
+    border-bottom: 1px solid #ddd !important;
+}
+
+.nav-tabs li a:hover {
+    color: rgb(232, 230, 227);
+    background-color: rgb(24, 26, 27);
+    border-bottom: 1px solid #ddd !important;
+    border-color: pink
+}
+
+/* Joku random ilmoituspalkki joka ilmesty */
+tim-dialog {
+    color: rgb(232, 230, 227);
+    background-color: rgb(24, 26, 27);
+    border-color: gray;
+}
+
+/* Osa tableista pyörii tällä */
+.paragraphs table tbody tr td {
+    color: rgb(232, 230, 227);
+    background-color: rgb(24, 26, 27) !important;
+    border-color: gray;
+}
+
+.paragraphs table thead tr td {
+    color: rgb(232, 230, 227);
+    background-color: rgb(24, 26, 27) !important;
+    border-color: gray;
+}
+
+.paragraphs table tbody tr th {
+    color: rgb(232, 230, 227);
+    background-color: rgb(24, 26, 27) !important;
+    border-color: gray;
+}
+
+/* Koodi boksien syntakstin väritystä */
+.ace-tm .ace_constant.ace_numeric, .ace-tm .ace_storage, .ace-tm .ace_keyword {
+    color: rgb(81, 144, 255);
+}
+
+/* Seuraavat pari materiaalien sisäisten osien muutoksia */
+div .parContent .header, .authorinfo, .notes, .note-badge, .paragraphs, .par.lightselect, .par.huomautus, .paragraphs table thead tr th, .paragraphs p.stem, .ace_editor, .ace_gutter-layer, .ace_gutter-active-line.ace_gutter-cell, .ace-gutter a, .ace_folding-enabled {
+    color: rgb(232, 230, 227);
+    background-color: rgb(24, 26, 27);
+    border-color: gray;
+}
+
+.paragraphs .csRunDiv h4 {
+    background-color: rgb(35, 139, 139);
+    color: rgb(255, 255, 255);
+}
+
+.paragraphs .unitTestRed {
+    background-image: initial;
+    background-color: rgb(133, 0, 0);
+}
+
+.paragraphs pre.csRunPre, pre.csRunPost, pre.csRunArea { 
+    color: rgb(232, 230, 227);
+    background-color: rgb(24, 26, 27);
+    border-top-color: rgb(76, 76, 76);
+    border-right-color: rgb(76, 76, 76);
+    border-bottom-color: rgb(76, 76, 76);
+    border-left-color: rgb(76, 76, 76);
+}
+
+/* Materiaalien otsikon muutos */
+.paragraphs .parContent h1, .paragraphs .parContent div h1 {
+    color: rgb(127, 174, 255);
+    border-top-color: rgb(0, 0, 229);
+    border-bottom-color: rgb(0, 0, 229);
+}
