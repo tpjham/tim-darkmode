@@ -1,4 +1,4 @@
-/* Väritystä sivun taustalle, sekä osalle materiaaleista ja alaosalle */
+/* Väritystä bokseille ja alaosalle */
 body, .container-fluid, .footer, .hidden-print, .note, .breadcrumb {
     color: rgb(232, 230, 227);
     background-color: rgb(24, 26, 27);
@@ -11,7 +11,7 @@ a {
 
 /* Vieraillut linkit */
 a:visited {
-    color: #5242CE !important;
+    color: rgb(122, 110, 217) !important;
 }
 
 /* Lisätty poistamaan whitespace sivujen reunasta / "ulkopuolelta" selaimen ollessa esim. vain puolen ruudun kokoinen */
@@ -23,6 +23,17 @@ html {
 /* Vaaleataustaisten ja läpinäkyvien kuvien värien osittainen "Invertointi" jotta näyttävät paremmalta */
 .paragraphs img {
      filter: invert(25%);
+}
+
+/* Matemaattisten kuvien inverttaus */
+.paragraphs .mathp.display img, .paragraphs .mathp.inline img {
+     filter: invert(100%);
+}
+
+/* Kommentti-painikkeen väri */
+.notes .note-badge {
+     background-color: #29a3a3;
+     background: #29a3a3;
 }
 
 /* Erillisen huomautus palkin taustaväri */
@@ -97,6 +108,7 @@ span ul.tim-menu-dropdown, ul li.tim-menu-list-item {
     border-color: rgb(30, 30, 30);
     border: 2px solid black;
     border-radius: 10px;
+    caret-color: rgb(232,230,227);
 }
 
 /* Käyttäjävalikon väri */
@@ -126,10 +138,11 @@ span ul.tim-menu-dropdown, ul li.tim-menu-list-item {
 }
 
 /* Tekstiboksit */
-.material, .form-control {
+.material, .form-control, textarea {
     color: rgb(232, 230, 227);
     background-color: rgb(24, 26, 27);
     border-color: rgb(30, 30, 30);
+    caret-color: rgb(232,230,227);
 
 }
 
@@ -218,10 +231,15 @@ div .parContent .header, .authorinfo, .notes, .note-badge, .paragraphs, .par.lig
     color: rgb(232, 230, 227);
     background-color: rgb(24, 26, 27);
     border-color: gray;
+    caret-color: rgb(232,230,227) !important;
 }
 
 .ace-tm .ace_gutter {
     background: rgb(24, 26, 27) !important;
+}
+
+.ace-tm .ace_cursor {
+   color: rgb(232, 230, 227);
 }
 
 .paragraphs .csRunDiv h4 {
