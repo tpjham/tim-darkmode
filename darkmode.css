@@ -23,7 +23,7 @@ html {
 /* Vaaleataustaisten ja läpinäkyvien kuvien värien osittainen "Invertointi" jotta näyttävät paremmalta */
 /* Väliaikaisesti vielä erillään matemaattisista kuvista */
 .paragraphs img {
-     filter: invert(100%);
+     filter: greyscale(1) invert(100%);
 }
 
 /* Matemaattisten kuvien inverttaus */
