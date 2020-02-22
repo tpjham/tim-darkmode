@@ -1,25 +1,38 @@
-/* Väritystä sivun taustalle, sekä osalle materiaaleista ja alaosalle */
+/* Väritystä bokseille ja alaosalle */
 body, .container-fluid, .footer, .hidden-print, .note, .breadcrumb {
     color: rgb(232, 230, 227);
     background-color: rgb(24, 26, 27);
 }
-/* Vierailemattomat linkit */
+
 a {
      color: #58f;
 }
 
-/* Vieraillut linkit */
 a:visited {
     color: #5242CE !important;
 }
 
-/* Lisätty poistamaan whitespace sivujen reunasta / "ulkopuolelta" selaimen ollessa esim. vain puolen ruudun kokoinen */
 html {
     color: rgb(232, 230, 227);
     background-color: rgb(24, 26, 27);
 }
 
-/* Alla muutoksia jotta Vesan "Keskustelua TIM-kommenteista" olisi mukavampi lukea, ja mikäli sieltä tulee pysyviä muutoksia */
+/* Vaaleataustaisten ja läpinäkyvien kuvien värien osittainen "Invertointi" jotta näyttävät paremmalta */
+.paragraphs img {
+     filter: invert(25%);
+}
+
+/* Erillisen huomautus palkin taustaväri */
+.paragraphs .huomautus {
+     background-color: rgb(24, 26, 27);
+}
+
+/* Tehtävän selityksen videolinkkien väri */
+.paragraphs .stem a {
+     color: rgb(85, 166, 255);
+}
+
+/* Alla muutoksia jotta Vesan "Keskustelua TIM-kommenteista olisi mukavempi */
 .paragraphs .blue {
     color: #6f6e6e
 }
@@ -74,6 +87,15 @@ span ul.tim-menu-dropdown, ul li.tim-menu-list-item {
     border-bottom: 1px solid #ddd !important;
 }
 
+/* Modal laatikot ja materiaalien muokkauslaatikot */
+.modal-content, .modal-content.draggable-content {
+    color: rgb(232, 230, 227);
+    background-color: rgb(30, 30, 30) !important;
+    border-color: rgb(30, 30, 30);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
 /* Käyttäjävalikon väri */
 .dropdown-menu, li a{
     color: #58f !important;
@@ -88,7 +110,7 @@ span ul.tim-menu-dropdown, ul li.tim-menu-list-item {
     border-color: pink;
 }
 
-/* Materiaalien värien muutosta, ja materiaalien sisäisten osien kuten videot ja koodiboksit */
+/* Random materiaalin värien muutosta */
 .panel, .panel-default .panel-heading {
     color: rgb(232, 230, 227);
     background-color: rgb(24, 26, 27);
@@ -96,7 +118,7 @@ span ul.tim-menu-dropdown, ul li.tim-menu-list-item {
 
 .smallVideoRunDiv {
     color: rgb(232, 230, 227);
-    background-color: gray;
+    background-color: rgb(60, 64, 67);
 }
 
 .material, .form-control {
@@ -130,7 +152,7 @@ span ul.tim-menu-dropdown, ul li.tim-menu-list-item {
     border-color: gray;
 }
 
-/* Vasemman ylämenun muutos */
+/* Menupalkkien muutos */
 .nav-tabs li.active a, .nav-tabs li.active a:focus, .nav-tabs li.active a:hover {
     color: rgb(232, 230, 227);
     background-color: rgb(24, 26, 27);
@@ -155,14 +177,14 @@ span ul.tim-menu-dropdown, ul li.tim-menu-list-item {
     border-color: pink
 }
 
-/* TIMin dialogi boksit */
+/* Joku random ilmoituspalkki joka ilmesty */
 tim-dialog {
     color: rgb(232, 230, 227);
     background-color: rgb(24, 26, 27);
     border-color: gray;
 }
 
-/* Osa TIMin pöydistä */
+/* Osa tableista pyörii tällä */
 .paragraphs table tbody tr td {
     color: rgb(232, 230, 227);
     background-color: rgb(24, 26, 27) !important;
