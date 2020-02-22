@@ -66,14 +66,15 @@ html {
     background-color: rgb(24, 26, 27) !important;
 }
 
-/*#wrapper {
+/* #wrapper {
     color: rgb(232, 230, 227);
 }
 
-iframe {
-    background: rgb(30, 30, 30);
-    background-color: rgb(40, 40, 40);
-}*/
+iframe, iframe path {
+    color: white;
+    background: white;
+    background-color: rgb(60, 64, 67);
+} */
 
 .kysymys p {
     background: rgb(50, 50, 50) !important;
