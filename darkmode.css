@@ -1,17 +1,20 @@
-/* Väritystä bokseille ja alaosalle */
+/* Väritystä sivun taustalle, sekä osalle materiaaleista ja alaosalle */
 body, .container-fluid, .footer, .hidden-print, .note, .breadcrumb {
     color: rgb(232, 230, 227);
     background-color: rgb(24, 26, 27);
 }
 
+/* Vierailemattomat linkit */
 a {
      color: #58f;
 }
 
+/* Vieraillut linkit */
 a:visited {
     color: #5242CE !important;
 }
 
+/* Lisätty poistamaan whitespace sivujen reunasta / "ulkopuolelta" selaimen ollessa esim. vain puolen ruudun kokoinen */
 html {
     color: rgb(232, 230, 227);
     background-color: rgb(24, 26, 27);
@@ -32,7 +35,7 @@ html {
      color: rgb(85, 166, 255);
 }
 
-/* Alla muutoksia jotta Vesan "Keskustelua TIM-kommenteista olisi mukavempi */
+/* Alla muutoksia jotta Vesan "Keskustelua TIM-kommenteista" olisi mukavampi lukea, ja mikäli sieltä tulee pysyviä muutoksia */
 .paragraphs .blue {
     color: #6f6e6e
 }
@@ -110,17 +113,19 @@ span ul.tim-menu-dropdown, ul li.tim-menu-list-item {
     border-color: pink;
 }
 
-/* Random materiaalin värien muutosta */
+/* Materiaalien värien muutosta, ja materiaalien sisäisten osien kuten videot ja koodiboksit */
 .panel, .panel-default .panel-heading {
     color: rgb(232, 230, 227);
     background-color: rgb(24, 26, 27);
 }
 
+/* Toinen korjaus tehtävän selitysvideolinkkien taustalle */
 .smallVideoRunDiv {
     color: rgb(232, 230, 227);
     background-color: rgb(60, 64, 67);
 }
 
+/* Tekstiboksit */
 .material, .form-control {
     color: rgb(232, 230, 227);
     background-color: rgb(24, 26, 27);
@@ -152,7 +157,7 @@ span ul.tim-menu-dropdown, ul li.tim-menu-list-item {
     border-color: gray;
 }
 
-/* Menupalkkien muutos */
+/* Vasemman ylämenun muutos */
 .nav-tabs li.active a, .nav-tabs li.active a:focus, .nav-tabs li.active a:hover {
     color: rgb(232, 230, 227);
     background-color: rgb(24, 26, 27);
@@ -177,14 +182,14 @@ span ul.tim-menu-dropdown, ul li.tim-menu-list-item {
     border-color: pink
 }
 
-/* Joku random ilmoituspalkki joka ilmesty */
+/* TIMin dialogi boksit */
 tim-dialog {
     color: rgb(232, 230, 227);
     background-color: rgb(24, 26, 27);
     border-color: gray;
 }
 
-/* Osa tableista pyörii tällä */
+/* Osa TIMin pöydistä */
 .paragraphs table tbody tr td {
     color: rgb(232, 230, 227);
     background-color: rgb(24, 26, 27) !important;
