@@ -66,8 +66,17 @@ html {
     background-color: rgb(24, 26, 27) !important;
 }
 
+/*#wrapper {
+    color: rgb(232, 230, 227);
+}
+
+iframe {
+    background: rgb(30, 30, 30);
+    background-color: rgb(40, 40, 40);
+}*/
+
 .kysymys p {
-    background: rgb(40, 40, 40) !important;
+    background: rgb(50, 50, 50) !important;
 }
 
 .paragraphs .bgyellow {
@@ -85,12 +94,16 @@ div.tim-menu, top-menu, top-menu-mobile {
 }
 
 span ul.tim-menu-dropdown, ul li.tim-menu-list-item {
-    color: rgb(232, 230, 227);
+    color: rgb(232, 230, 227) !important;
     background-color: rgb(24, 26, 27);
     border-color: gray;
 }
 
-.tim-menu-list-item:hover, .tim-menu-item a:hover {
+.tim-menu-item {
+    color: rgb(232, 230, 227) !important;
+}
+
+.tim-menu-list-item:hover, .tim-menu-list-item .tim-menu-item:hover, .tim-menu-item:hover, .tim-menu-item a:hover, .tim-menu-item:focus {
     background: rgb(70,70,70) !important;
 }
 
@@ -138,7 +151,7 @@ span ul.tim-menu-dropdown, ul li.tim-menu-list-item {
 }
 
 /* Tekstiboksit */
-.material, .form-control, textarea {
+.material, .form-control, textarea, input {
     color: rgb(232, 230, 227);
     background-color: rgb(24, 26, 27);
     border-color: rgb(30, 30, 30);
