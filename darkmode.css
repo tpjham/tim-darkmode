@@ -14,6 +14,12 @@ a:visited {
     color: rgb(122, 110, 217) !important;
 }
 
+/* Vasemman yläkulman demojen pistemäärä-lukema */
+.taskSmallSummary {
+    left: 140px;
+    top: 1.5%;
+}
+
 /* Lisätty poistamaan whitespace sivujen reunasta / "ulkopuolelta" selaimen ollessa esim. vain puolen ruudun kokoinen */
 html {
     color: rgb(232, 230, 227);
