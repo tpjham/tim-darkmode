@@ -120,7 +120,7 @@ span ul.tim-menu-dropdown, ul li.tim-menu-list-item {
 }
 
 /* Toinen korjaus tehtävän selitysvideolinkkien taustalle */
-.smallVideoRunDiv {
+.smallVideoRunDiv, .listVideoRunDiv {
     color: rgb(232, 230, 227);
     background-color: rgb(60, 64, 67);
 }
@@ -218,6 +218,10 @@ div .parContent .header, .authorinfo, .notes, .note-badge, .paragraphs, .par.lig
     color: rgb(232, 230, 227);
     background-color: rgb(24, 26, 27);
     border-color: gray;
+}
+
+.ace-tm .ace_gutter {
+    background: rgb(24, 26, 27) !important;
 }
 
 .paragraphs .csRunDiv h4 {
