@@ -14,7 +14,12 @@ a:visited {
     color: rgb(122, 110, 217) !important;
 }
 
-/* Vasemman yläkulman demojen pistemäärä-lukema */
+/* Sarakkeen luetuksi merkitsemisen oranssia aluetta siirretty enemmän oikealle */
+.readline {
+     right: -4em;
+}
+
+/* Vasemman yläkulman demojen pistemäärä-lukema siirretty parempaan paikkaan */
 .taskSmallSummary {
     left: 140px;
     top: 1.5%;
@@ -70,6 +75,10 @@ html {
 .notes {
     color: rgb(232, 230, 227);
     background-color: rgb(24, 26, 27) !important;
+}
+
+#wrapper {
+    color: rgb(232, 230, 227);
 }
 
 iframe, iframe path {
