@@ -75,6 +75,7 @@ html {
 .notes {
     color: rgb(232, 230, 227);
     background-color: rgb(24, 26, 27) !important;
+    right: calc( -30% + -4em - 5px );
 }
 
 #wrapper {
