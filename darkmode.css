@@ -14,6 +14,11 @@ a:visited {
     color: rgb(122, 110, 217) !important;
 }
 
+/* Ohj1 navigointi */
+.navOhj1 p {
+  color: white;
+}
+
 /* Sarakkeen luetuksi merkitsemisen oranssia aluetta siirretty enemmän oikealle */
 .readline {
      right: -4em;
@@ -61,6 +66,8 @@ html {
 .paragraphs .stem a {
      color: rgb(85, 166, 255);
 }
+
+
 
 /* Alla muutoksia jotta Vesan "Keskustelua TIM-kommenteista" olisi mukavampi lukea, ja mikäli sieltä tulee pysyviä muutoksia */
 .paragraphs .blue {
