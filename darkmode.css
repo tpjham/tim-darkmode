@@ -14,6 +14,11 @@ a:visited {
     color: rgb(122, 110, 217) !important;
 }
 
+/* Ohj1 navigointi */
+.navOhj1 p {
+  color: white;
+}
+
 /* Sarakkeen luetuksi merkitsemisen oranssia aluetta siirretty enemmän oikealle */
 .readline {
      right: -4em;
@@ -23,6 +28,11 @@ a:visited {
 .taskSmallSummary {
     left: 140px;
     top: 1.5%;
+}
+
+/* Paragraphien <code> blockien taustaväri */
+code {
+    background-color: rgb(60, 64, 67);
 }
 
 /* Lisätty poistamaan whitespace sivujen reunasta / "ulkopuolelta" selaimen ollessa esim. vain puolen ruudun kokoinen */
@@ -56,6 +66,8 @@ html {
 .paragraphs .stem a {
      color: rgb(85, 166, 255);
 }
+
+
 
 /* Alla muutoksia jotta Vesan "Keskustelua TIM-kommenteista" olisi mukavampi lukea, ja mikäli sieltä tulee pysyviä muutoksia */
 .paragraphs .blue {
@@ -251,6 +263,11 @@ tim-dialog {
 /* Koodi boksien syntakstin väritystä */
 .ace-tm .ace_constant.ace_numeric, .ace-tm .ace_storage, .ace-tm .ace_keyword {
     color: rgb(81, 144, 255);
+}
+
+/* Koodiboksin vasemman puoleisin margin siirretty takaisin omalle paikalleen rivinumeroiden viereen */
+.ace_print-margin {
+    position: initial;
 }
 
 /* Seuraavat pari materiaalien sisäisten osien muutoksia */
